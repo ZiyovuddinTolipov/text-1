@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Text 1 </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h2>
+        TOLIPOV<br />
+        <span>ZIYOVUDDIN</span>
+      </h2>
+      <div class="black">
+       
+        <br />
+      </div>
+    </section>
+
+    <script>
+      const black = document.querySelector(".black");
+      window.onmousemove = function (e) {
+        const x = e.clientX;
+        black.style.left = x + "px";
+      };
+    </script>
+  </body>
+</html>
